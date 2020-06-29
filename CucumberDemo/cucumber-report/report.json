@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-29T06:16:36.941Z",
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5886000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the url is \"https://lkmdemoaut.accenture.com/TestMeApp/fetchcat.htm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://lkmdemoaut.accenture.com/TestMeApp/fetchcat.htm\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Script.login.the_url_is(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1891000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks signin button",
+            "match": {
+              "location": "Script.login.user_clicks_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username \"lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"lalitha\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Script.login.user_enters_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Script.login.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 613000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks login button",
+            "match": {
+              "location": "Script.login.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 489000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks signout button",
+            "match": {
+              "location": "Script.login.user_clicks_signout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
